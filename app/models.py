@@ -12,7 +12,7 @@ class Movie:
         self.vote_count = vote_count
 
 
-        
+
 class Review:
 
     all_reviews = []
