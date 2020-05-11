@@ -1,13 +1,13 @@
 from flask import render_template,url_for,request,flash,redirect,abort
 from app.main  import main
-from app.models import User,Blog,Comment
+# from app.models import User,Blog,Comment
 from .. import db, photos
 from .forms import UpdateProfile,CreateBlog
 from flask_login import login_required,current_user
 import secrets
 import os
 from ..email import mail_message
-from ..request import get_quotes
+# from ..request import get_quotes
 
 @main.route('/')
 def index():

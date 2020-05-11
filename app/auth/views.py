@@ -1,6 +1,6 @@
 from flask import redirect,render_template,url_for,request,flash
 from app.auth import auth
-from app.models import User
+# from app.models import User
 from .forms import RegistrationForm,LoginForm
 from flask_login import login_user,login_required,logout_user
 from ..email import mail_message

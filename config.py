@@ -18,14 +18,14 @@ class ProdConfig(Config):
     '''
     Production configuration child class
     '''
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://kevin:kilitasha@123@localhost/blogss'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://kevin:kilitasha@123@localhost/bloggs'
 
 class DevConfig(Config):
     '''
     Development configuration child class
     '''
-    SECRET_KEY = 'niMIMI'
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://kevin:kilitasha@123@localhost/blogss'
+    SECRET_KEY = 'kilitasha'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://kevin:kilitasha@123@localhost/bloggs'
     DEBUG = True
     ENV = 'development'
 config_options = {
