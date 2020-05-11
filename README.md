@@ -27,9 +27,8 @@ As a user of the web application you will be able to:
 ## Specifications
 | Behavior            | Input                         | Output                        | 
 | ------------------- | ----------------------------- | ----------------------------- |
-| View Product Pitches | Click on any category | Taken to the clicked category | Click on `Click Here To Post A Pitch` | Redirected to the login page | Signs In/ Signs Up |
-| Click on `Click Here To Post A Pitch` | If logged in, display form to add a pitch | Redirected to the home page |
-| Click upvote/ downvote button | Redirects to home page | Upvote/ downvote count changes | Click add comment button | Redirects to the comment page | Displays a comment form | Click on Sign Out | Redirects to the home page | Signs user out |
+| View Product Pitches | Click on any category | Taken to the clicked category | Click on `Click Here To Post A Project` | Redirected to the login page | Signs In/ Signs Up |
+| Click on `Click Here To Post A Pitch` | If logged in, display other peoples projects | Redirected to the home page  | Redirects to home page |  Click add comment button | Redirects to the comment page | Displays a comment form | Click on Sign Out | Redirects to the home page | Signs user out |
 | Click on profile | Redirects to the profile page | User adds bio and profile picture |
 
 
