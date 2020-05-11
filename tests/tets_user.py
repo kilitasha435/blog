@@ -7,11 +7,16 @@ class UserModelTest(unittest.TestCase):
         self.new_user = User(password = 'kilitasha@123')
 
     def test_password_setter(self):
-        self.assertTrue(self.new_user.password_secure is not None)
+        self.assertTrue(self.new_user.password_u is not None)
 
     def test_no_access_password(self):
-        with self.assertRaises(AttributeError):
-            self.new_user.password
+            with self.assertRaises(AttributeError):
+                self.new_user.password
 
     def test_password_verification(self):
         self.assertTrue(self.new_user.verify_password('kilitasha@123'))
+
+    def tearDown(self):
+        user = User.query.filter_by(username="kevinkili").first()
+        if user:
+            print("found")
