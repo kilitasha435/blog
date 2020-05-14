@@ -2,7 +2,7 @@
 
 
 ## Description
-The personal blog application allows users to submit their projects and other users will vote on them and leave comments to give their feedback. The projects are organized by category. You can visit the live site on https://kilitashblog.herokuapp.com/
+The personal blog application allows users to submit their projects and other users will vote on them and leave comments to give their feedback. The projects are organized by category. You can visit the live site on http://kilitasha.herokuapp.com/
 
 
 ## Author
